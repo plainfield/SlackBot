@@ -1,7 +1,7 @@
 applications:
   buildpack: https://github.com/jthomas/nodejs-v4-buildpack.git
-  name: slackbot
-  host: slackbot
+  name: slackbot99
+  host: slackbot99
   command: ./bin/hubot --adapter slack
   path: .
   instances: 1
