@@ -1,7 +1,8 @@
 applications:
+  disk_quota: 1024M
   buildpack: https://github.com/jthomas/nodejs-v4-buildpack.git
-  name: slackbot99
   host: slackbot99
+  name: slackbot99
   command: ./bin/hubot --adapter slack
   path: .
   instances: 1
